@@ -29,7 +29,7 @@ function Page() {
           <em>Differentially Private Mixed-Type Data Generation For Unsupervised Learning</em><br/>
           <hr/>
           Uthaipon Tantipongpipat*, Chris Waites*, Digvijay Boob, Amaresh Ankit Siva, and Rachel Cummings.<br/>
-          <em>NeurIPS 2020.</em>
+          <em>arXiv:1912.03250.</em>
         </Entry>
       </>
     );

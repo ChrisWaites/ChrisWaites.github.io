@@ -16,9 +16,6 @@ function Entry(props) {
 function Page() {
     return (
       <>
-        <Entry href='/writing/deaths-of-despair'>
-          Deaths of Despair
-        </Entry>
         <Entry href='/writing/risk-aware-reinforcement-learning'>
           Risk-Aware Reinforcement Learning
         </Entry>
