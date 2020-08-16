@@ -2,7 +2,7 @@ import './App.css';
 
 import Page from './components/page';
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
 import About from './pages/about';
 import Research from './pages/research';
@@ -21,16 +21,16 @@ function App() {
       <Switch>
         <Route exact path='/' component={About}/>
 
-        <Route exact path='/about' component={About}/>
-        <Route exact path='/research' component={Research}/>
-        <Route exact path='/writing' component={Writing}/>
-        <Route exact path='/reading' component={Reading}/>
-        <Route exact path='/design' component={Design}/>
+        <Route path='/about' component={About}/>
+        <Route path='/research' component={Research}/>
+        <Route path='/writing' component={Writing}/>
+        <Route path='/reading' component={Reading}/>
+        <Route path='/design' component={Design}/>
 
-        <Route exact path='/writing/deaths-of-despair' component={DeathsOfDespair} />
-        <Route exact path='/writing/how-differential-privacy-fits-into-industry' component={HowDifferentialPrivacyFitsIntoIndustry} />
-        <Route exact path='/writing/differentially-private-deep-learning' component={DifferentiallyPrivateDeepLearning} />
-        <Route exact path='/writing/risk-aware-reinforcement-learning' component={RiskAwareReinforcementLearning} />
+        <Route path='/writing/deaths-of-despair' component={DeathsOfDespair} />
+        <Route path='/writing/how-differential-privacy-fits-into-industry' component={HowDifferentialPrivacyFitsIntoIndustry} />
+        <Route path='/writing/differentially-private-deep-learning' component={DifferentiallyPrivateDeepLearning} />
+        <Route path='/writing/risk-aware-reinforcement-learning' component={RiskAwareReinforcementLearning} />
       </Switch>
     </Page>
   );
