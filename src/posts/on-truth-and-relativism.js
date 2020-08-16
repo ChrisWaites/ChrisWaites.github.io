@@ -6,7 +6,7 @@ function Post() {
   return (
     <>
       <h2>
-          Risk-Aware Reinforcement Learning
+          On Truth and Relativism
       </h2>
 
       <p>
