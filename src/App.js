@@ -18,20 +18,18 @@ import DeathsOfDespair from './posts/deaths-of-despair';
 function App() {
   return (
     <Page>
-      <Switch>
-        <Route exact path='/' component={About}/>
+      <Route exact path='/' component={About}/>
 
-        <Route path='/about' component={About}/>
-        <Route path='/research' component={Research}/>
-        <Route path='/writing' component={Writing}/>
-        <Route path='/reading' component={Reading}/>
-        <Route path='/design' component={Design}/>
+      <Route path='/about' component={About}/>
+      <Route path='/research' component={Research}/>
+      <Route path='/writing' component={Writing}/>
+      <Route path='/reading' component={Reading}/>
+      <Route path='/design' component={Design}/>
 
-        <Route path='/writing/deaths-of-despair' component={DeathsOfDespair} />
-        <Route path='/writing/how-differential-privacy-fits-into-industry' component={HowDifferentialPrivacyFitsIntoIndustry} />
-        <Route path='/writing/differentially-private-deep-learning' component={DifferentiallyPrivateDeepLearning} />
-        <Route path='/writing/risk-aware-reinforcement-learning' component={RiskAwareReinforcementLearning} />
-      </Switch>
+      <Route path='/deaths-of-despair' component={DeathsOfDespair} />
+      <Route path='/how-differential-privacy-fits-into-industry' component={HowDifferentialPrivacyFitsIntoIndustry} />
+      <Route path='/differentially-private-deep-learning' component={DifferentiallyPrivateDeepLearning} />
+      <Route path='/risk-aware-reinforcement-learning' component={RiskAwareReinforcementLearning} />
     </Page>
   );
 }
