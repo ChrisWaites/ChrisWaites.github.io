@@ -87,6 +87,8 @@ function Post() {
           Tinder
       </h4>
 
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2O-iLk1G_ng?start=3103" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
       <InstagramEmbed url='https://instagr.am/p/Bfw2OPinqme/' maxWidth={320} hideCaption={true} />
       <InstagramEmbed url='https://instagr.am/p/BoPAPVKAnS0/' maxWidth={320} hideCaption={true} />
 

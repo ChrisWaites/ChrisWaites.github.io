@@ -10,10 +10,12 @@ import Writing from './pages/writing';
 import Reading from './pages/reading';
 import Design from './pages/design';
 
+import MachineUnlearning from './posts/machine-unlearning';
 import DifferentiallyPrivateDeepLearning from './posts/differentially-private-deep-learning';
 import HowDifferentialPrivacyFitsIntoIndustry from './posts/how-differential-privacy-fits-into-industry';
 import RiskAwareReinforcementLearning from './posts/risk-aware-reinforcement-learning';
 import DeathsOfDespair from './posts/deaths-of-despair';
+import WhereWeAreNow from './posts/where-we-are-now';
 
 function App() {
   return (
@@ -27,9 +29,11 @@ function App() {
       <Route path='/design' component={Design}/>
 
       <Route path='/deaths-of-despair' component={DeathsOfDespair} />
+      <Route path='/where-we-are-now' component={WhereWeAreNow} />
       <Route path='/how-differential-privacy-fits-into-industry' component={HowDifferentialPrivacyFitsIntoIndustry} />
       <Route path='/differentially-private-deep-learning' component={DifferentiallyPrivateDeepLearning} />
       <Route path='/risk-aware-reinforcement-learning' component={RiskAwareReinforcementLearning} />
+      <Route path='/machine-unlearning' component={MachineUnlearning} />
     </Page>
   );
 }

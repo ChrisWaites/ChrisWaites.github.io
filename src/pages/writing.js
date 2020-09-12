@@ -18,6 +18,9 @@ function Entry(props) {
 function Page() {
     return (
       <>
+        <Entry href='/machine-unlearning'>
+          Machine Unlearning
+        </Entry>
         <Entry href='/risk-aware-reinforcement-learning'>
           Risk-Aware Reinforcement Learning
         </Entry>
