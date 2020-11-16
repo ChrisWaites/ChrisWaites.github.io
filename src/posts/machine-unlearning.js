@@ -39,7 +39,7 @@ function Post() {
         <p>
           To be concrete, let{"\'"}s say our loss function is:
         </p>
-        <BlockMath math="\ell(\theta) = - \frac{1}{n} \left( \sum_{i \in [n]} y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) \right) + \lambda ||\theta||_2"/>
+        <BlockMath math="\ell(\theta) = - \frac{1}{n} \left( \sum_{i = 1}^{n} y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) \right) + \lambda ||\theta||_2"/>
         <p>
           This loss function is <InlineMath math="m"/>-strongly convex and <InlineMath math="M"/>-smooth, where <InlineMath math="m = \lambda"/> and <InlineMath math="M = 4 - \lambda"/>.
         </p>

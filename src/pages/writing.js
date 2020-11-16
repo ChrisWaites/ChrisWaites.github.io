@@ -19,16 +19,16 @@ function Page() {
     return (
       <>
         <Entry href='/machine-unlearning'>
-          Machine Unlearning
+          Data Deletion in Machine Learning
         </Entry>
         <Entry href='/risk-aware-reinforcement-learning'>
           Risk-Aware Reinforcement Learning
         </Entry>
         <Entry href='/how-differential-privacy-fits-into-industry'>
-          How Differential Privacy (Could) Fit Into Industry
+          Where Differential Privacy (Could) Fit Into Industry
         </Entry>
         <Entry href='/differentially-private-deep-learning'>
-          A Guide to Differentially Private Deep Learning
+          A Practitioner{"\'"}s Guide to Differentially Private Deep Learning
         </Entry>
       </>
     );
