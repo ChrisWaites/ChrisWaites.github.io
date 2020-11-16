@@ -39,7 +39,7 @@ function Post() {
         <p>
           To be concrete, let{"\'"}s say our loss function is:
         </p>
-        <BlockMath math="\ell(\theta) = - \frac{1}{n} \left( \sum_{i = 1}^{n} y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) \right) + \lambda ||\theta||_2"/>
+        <BlockMath math="\ell(\theta) = - \frac{1}{n} \left( \sum_{i = 1}^{n} y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) \right) + \frac{\lambda}{2} ||\theta||_2^2"/>
         <p>
           This loss function is <InlineMath math="m"/>-strongly convex and <InlineMath math="M"/>-smooth, where <InlineMath math="m = \lambda"/> and <InlineMath math="M = 4 - \lambda"/>.
         </p>
@@ -55,7 +55,7 @@ function Post() {
         </p>
 
         <br/><p>
-          We begin with Case A, where we perform gradient descent on the full dataset for <InlineMath math="t"/> steps until <InlineMath math="\theta_0"/> becomes <InlineMath math="\theta_t"/>. The dotted line represents how far away <InlineMath math="\theta_t"/> can possibly be from <InlineMath math="\theta^D"/> due to our convergence guarantee.
+          We begin with Case A, where we perform gradient descent on the full dataset for <InlineMath math="t"/> steps until <InlineMath math="\theta_0"/> becomes <InlineMath math="\theta_a"/>. The dotted line represents how far away <InlineMath math="\theta_a"/> can possibly be from <InlineMath math="\theta_D"/>, the global minimizer for dataset <InlineMath math="D" />, due to our convergence guarantee.
         </p>
 
         <center style={{ 'background-color': 'white', 'padding': '20px', 'border-radius': '20px' }}>
@@ -71,7 +71,7 @@ function Post() {
         </center>
 
         <br/><p>
-          Given this, we know how far away <InlineMath math="\theta_t"/> can be from <InlineMath math="\theta^D"/> and how far <InlineMath math="\theta^D"/> can be from <InlineMath math="\theta^{D \setminus x}"/>. Therefore, we know how far <InlineMath math="\theta_t"/> could possibly be from <InlineMath math="\theta^{D \setminus x}"/>. Given this information, we can again apply the convergence guarantee and perform gradient descent for some required number of steps in the direction of <InlineMath math="\theta^{D \setminus x}"/> until we know we{"\'"}re some distance away, resulting in <InlineMath math="\theta_T"/>. This finishes Case A, where we{"\'"}ve gone from an initial point <InlineMath math="\theta_0"/> and gotten close to <InlineMath math="\theta^{D \setminus x}"/> without knowing <InlineMath math="x"/> beforehand.
+          Given this, we know how far away <InlineMath math="\theta_a"/> can be from <InlineMath math="\theta_D"/> and how far <InlineMath math="\theta_D"/> can be from <InlineMath math="\theta_{D \setminus x}"/>. Therefore, we know how far <InlineMath math="\theta_a"/> could possibly be from <InlineMath math="\theta^{D \setminus x}"/>. Given this information, we can again apply the convergence guarantee and perform gradient descent for some number of steps in the direction of <InlineMath math="\theta^{D \setminus x}"/> until we know we{"\'"}re some desired distance away, resulting in <InlineMath math="\theta_A"/>. This finishes Case A, where we{"\'"}ve gone from an initial point <InlineMath math="\theta_0"/> and gotten close to <InlineMath math="\theta^{D \setminus x}"/> without knowing <InlineMath math="x"/> beforehand.
         </p>
 
         <center style={{ 'background-color': 'white', 'padding': '20px', 'border-radius': '20px' }}>
@@ -87,7 +87,7 @@ function Post() {
         </center>
 
         <br/><p>
-          Now given that we can guarantee a certain distance from <InlineMath math="\theta^{D \setminus x}"/> in either case, we can guarantee that <InlineMath math="\theta_T"/> and <InlineMath math="\theta"/> are within some distance of one another.
+          Now given that we can guarantee a certain distance from <InlineMath math="\theta^{D \setminus x}"/> in either case, we can guarantee that <InlineMath math="\theta_A"/> and <InlineMath math="\theta_B"/> are within some distance of one another.
         </p>
 
         <center style={{ 'background-color': 'white', 'padding': '20px', 'border-radius': '20px' }}>
@@ -95,7 +95,7 @@ function Post() {
         </center>
 
         <br/><p>
-          Finally, in either case, we publish the models according to the same publishing scheme, namely an injection of Gaussian noise to the model parameters scaled to how far <InlineMath math="\theta_T"/> and <InlineMath math="\theta"/> could possibly be from one another. All of this entails that both outcomes are statistically indistinguishable from one another, in the sense that the probability distributions over both models are "approximately identical".
+          Finally, in either case, we publish the models according to the same publishing scheme, namely an injection of Gaussian noise to the model parameters scaled to how far <InlineMath math="\theta_A"/> and <InlineMath math="\theta_B"/> could possibly be from one another. All of this entails that both outcomes are statistically indistinguishable from one another, in the sense that the probability distributions over both models are "approximately identical".
         </p>
 
         <center style={{ 'background-color': 'white', 'padding': '20px', 'border-radius': '20px' }}>
