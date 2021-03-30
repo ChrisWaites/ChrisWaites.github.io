@@ -6,11 +6,11 @@ function Post() {
   return (
     <>
       <h2>
-          On Truth and Relativism
+        On Truth and Relativism
       </h2>
 
       <p>
-          In this post, we will investigate the notion of risk in the context of reinforcement learning.
+        In this post, we will investigate the notion of risk in the context of reinforcement learning.
       </p>
 
       <h3>

@@ -7,55 +7,58 @@ function Post() {
   return (
     <>
       <h2>
-          Deaths of Despair
+        Deaths of Despair
       </h2>
       <p>
+      <p>
+        I grew up in a Christian household. A quote which I often heard was the following:
+      </p>
       <em>
-          Ecclesiastes 1:9. What has been will be again, what has been done will be done again; there is nothing new under the sun.
+        Ecclesiastes 1:9. What has been will be again, what has been done will be done again; there is nothing new under the sun.
       </em>
       </p>
       <p>
-          I believe this is true in one sense, but false in another. Have these things been echoed in other forms in the past? Absolutely. But are these manifestations becoming increasingly more potent? I would argue so.
+        I believe this is true in one sense, but false in another. Have these things been echoed in other forms in the past? Absolutely. But are these manifestations becoming increasingly more potent? I would argue so.
       </p>
       <p>
-          In the past, you at least had some degree of separation between you and the elite. You can realize this in a few ways, but the way I think the most clearly about is the following. That is, on average, the amount of time these individuals occupy your direct attention, with some implicit weight on subconscious attention.
+        In the past, you at least had some degree of separation between you and the elite. You can realize this in a few ways, but the way I think the most clearly about is the following. That is, on average, the amount of time these individuals occupy your direct attention, with some implicit weight on subconscious attention.
       </p>
       <p>
-          Let’s take the median American who makes around $33,706 a year (2018). Now, convince yourself there exists some probability, no matter how small, that such a person exhibits a chance of breaking down upon seeing such a photo after a long and hard day at work.
+        Let’s take the median American who makes around $33,706 a year (2018). Now, convince yourself there exists some probability, no matter how small, that such a person exhibits a chance of breaking down upon seeing such a photo after a long and hard day at work.
       </p>
       <p>
-          How many times a day do you think that coin is flipped? There are 350 million americans. Wouldn’t you like to be him? He looks well rested, and if he were to go up to any of his million fans, he would be undoubtedly praised like a living god.
+        How many times a day do you think that coin is flipped? There are 350 million americans. Wouldn’t you like to be him? He looks well rested, and if he were to go up to any of his million fans, he would be undoubtedly praised like a living god.
       </p>
 
       <h3>
-          Wealth Inequality
+        Wealth Inequality
       </h3>
       <p>
-          I see Amazon as a useful analog. If you had to distill America{"\'"}s problem, it could be physically manifested as Amazon{"\'"}s structure. Essentially, we have a clear balkanization and class structure. Which is, we have the elite which make decisions and live way more well off than necessary, the engineers, the lower class who are treated unreasonably poorly, and the hyper-elite Jeff Bezos money who is more valuable than is really coprehensible.
+        I see Amazon as a useful analog. If you had to distill America{"\'"}s problem, it could be physically manifested as Amazon{"\'"}s structure. Essentially, we have a clear balkanization and class structure. Which is, we have the elite which make decisions and live way more well off than necessary, the engineers, the lower class who are treated unreasonably poorly, and the hyper-elite Jeff Bezos money who is more valuable than is really coprehensible.
       </p>
       <p>
-          At the time of writing this, Jeff Bezos is worth approximately 180 billion dollars. To conceptualize this, consider a billionaire. To become a billionaire, you would have had to have had a 4 million dollar salary every year throughout all of American history, which is an absolutely ridiculous salary to have persisted through the civil war, the invention of the cotton gin, throught the civil rights movement, until now. That is poverty in relation to Jeff Bezos.
+        At the time of writing this, Jeff Bezos is worth approximately 180 billion dollars. To conceptualize this, consider a billionaire. To become a billionaire, you would have had to have had a 4 million dollar salary every year throughout all of American history, which is an absolutely ridiculous salary to have persisted through the civil war, the invention of the cotton gin, throught the civil rights movement, until now. That is poverty in relation to Jeff Bezos.
       </p>
       <p>
-          Now, the problem per say clearly isn{"\'"}t that automation or wealth inequality is new in some sense, this is clearly false. But I would argue that a problem which rapidly exacerbates is indistinguishable from a new problem, and that this principle applies in this context. Of course, every time a new technology comes around it ripples throughout the economy. But the problem now is that the proportions of the population our innovations are having are growing, and the skills they undermine require more and more prior investment. Of course, when the cotton gin came around people surely lost their jobs, but finding other blue collar work was an alternative and learning the upkeep a cotton gin, which required more skill than picking the cotton itself, took an investment on the order of days. Now, we{"\'"}re talking about technology which could potentially undermine manual labor all together, and using methods which require so much more skill, at an unprecedented speed.
+        Now, the problem per say clearly isn{"\'"}t that automation or wealth inequality is new in some sense, this is clearly false. But I would argue that a problem which rapidly exacerbates is indistinguishable from a new problem, and that this principle applies in this context. Of course, every time a new technology comes around it ripples throughout the economy. But the problem now is that the proportions of the population our innovations are having are growing, and the skills they undermine require more and more prior investment. Of course, when the cotton gin came around people surely lost their jobs, but finding other blue collar work was an alternative and learning the upkeep a cotton gin, which required more skill than picking the cotton itself, took an investment on the order of days. Now, we{"\'"}re talking about technology which could potentially undermine manual labor all together, and using methods which require so much more skill, at an unprecedented speed.
       </p>
       <p>
-          The key difference is the following key metric. What proportion of outsourced workers were able to actually contribute or play a part in the technology which outsourced them? With the cotton gin, I would argue that that number was modestly high. That is, the skills you had to be a picker of cotton weren{"\'"}t too far off from maintaining a cotton gin or thinking of new ideas to improve it, it was a mechanical contraption after all. Of course not everyone would exhibit that effort and might simply switch to another industry, but the possibility was there. What proportion of truck drivers outsourced will be able to contribute or play a part in self-driving car technology? Literally zero percent.
+        The key difference is the following key metric. What proportion of outsourced workers were able to actually contribute or play a part in the technology which outsourced them? With the cotton gin, I would argue that that number was modestly high. That is, the skills you had to be a picker of cotton weren{"\'"}t too far off from maintaining a cotton gin or thinking of new ideas to improve it, it was a mechanical contraption after all. Of course not everyone would exhibit that effort and might simply switch to another industry, but the possibility was there. What proportion of truck drivers outsourced will be able to contribute or play a part in self-driving car technology? Literally zero percent.
       </p>
       <p>
-          So lets say you think well get past the self driving truck issue, which id agree we probably will at some cost. Well, again, this is getting worse. Whats the next large scale technological innovation to be had? Almost surey the end of menial white collar work requiring basic linguistic ability and reasoning skills, aka lawyers, accountants and the like. What are we going to tell 40 year old men with kids and a mortgage? Especially when the maintenance of this software requires a team of three engineers? Im sorry but theres no jobs available in this context - midway through your career you might just need to learn how to be a pharmacologist. Its almost in some sense like our efficiency and problem solving ability has become too low of a barrier to entry for our own good.
+        So lets say you think well get past the self driving truck issue, which id agree we probably will at some cost. Well, again, this is getting worse. Whats the next large scale technological innovation to be had? Almost surey the end of menial white collar work requiring basic linguistic ability and reasoning skills, aka lawyers, accountants and the like. What are we going to tell 40 year old men with kids and a mortgage? Especially when the maintenance of this software requires a team of three engineers? Im sorry but theres no jobs available in this context - midway through your career you might just need to learn how to be a pharmacologist. Its almost in some sense like our efficiency and problem solving ability has become too low of a barrier to entry for our own good.
       </p>
       <p>
-          Again, my argument is not that self driving cars will be the end of civilization. Its that the implications of technological innovation are getting worse. If you think this round of innovation isn{"\'"}t sufficient, wait 100 years. What will we be outsourcing then?
+        Again, my argument is not that self driving cars will be the end of civilization. Its that the implications of technological innovation are getting worse. If you think this round of innovation isn{"\'"}t sufficient, wait 100 years. What will we be outsourcing then?
       </p>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/G1UpFHsbOf0?start=1745" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
       <h3>
-          Social Media
+        Social Media
       </h3>
 
       <h4>
-          Twitch
+        Twitch
       </h4>
       <p>
         I can{"\'"}t say my response to such incidents better than it was said by /u/Thopterthallid in <a href="https://www.reddit.com/r/AskReddit/comments/ca0gm6/people_who_ordered_belle_delphines_bathwater_why/et5pesf?utm_source=share&utm_medium=web2x">this</a> comment.
@@ -84,7 +87,7 @@ function Post() {
       </p>
 
       <h4>
-          Tinder
+        Tinder
       </h4>
 
       <iframe width="560" height="315" src="https://www.youtube.com/embed/2O-iLk1G_ng?start=3103" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

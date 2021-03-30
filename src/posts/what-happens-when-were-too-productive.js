@@ -6,7 +6,7 @@ function Post() {
   return (
     <>
       <h2>
-          On Truth and Relativism
+        On Truth and Relativism
       </h2>
       <p>
         Back in the day, something like ford required a healthy mix of skills and acted as a reasonable stratification of wealth

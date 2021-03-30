@@ -19,7 +19,7 @@ function Page() {
     return (
       <>
         <Entry href='/machine-unlearning'>
-          Data Deletion in Machine Learning
+          Deleting Data from Machine Learning Models
         </Entry>
         <Entry href='/risk-aware-reinforcement-learning'>
           Risk-Aware Reinforcement Learning
